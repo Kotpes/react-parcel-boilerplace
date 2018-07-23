@@ -1,0 +1,38 @@
+{
+  "name": "react-parcel-boilerplate",
+  "version": "0.1.0",
+  "description": "Simple parcel boilreplate for react projects",
+  "main": "src/index.js",
+  "author": "Sergey Dubovik <kotpes@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "parcel public/index.html",
+    "flow": "flow",
+    "flow:fetch-types": "flow-typed install --flowVersion=0.77",
+    "build": "parcel build src/index.js",
+    "test": "node scripts/test.js --env=jsdom"
+  },
+  "dependencies": {
+    "babel-plugin-transform-decorators": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "mobx": "^5.0.3",
+    "mobx-react": "^5.2.3",
+    "normalize.css": "^8.0.0",
+    "parcel-bundler": "^1.9.7",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-router-dom": "^4.3.1"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "flow": "^0.2.3",
+    "flow-bin": "^0.77.0",
+    "flow-typed": "^2.5.1",
+    "prettier": "1.13.7"
+  }
+}
